@@ -254,6 +254,13 @@ header {
         display: none;
     }
 
+    .skill-icons {
+        display: block;
+        height: 100%;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
 }
 /*962px - 2560px*/
 @media only screen and (min-width: 962px) and (max-width: 2560px) {
