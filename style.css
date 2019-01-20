@@ -1,0 +1,260 @@
+body {
+    font-size: 16px;
+    margin: 0rem;
+    font-family: 'Thasadith', sans-serif;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+width: 0px;
+background: transparent; 
+}   
+
+/*Navbar*/
+header {
+    display: flex;
+    height: 7.2rem;
+    width: 100%;
+}
+
+.banner {
+    display: flex;
+    position: absolute;
+}
+/*Commented out*/
+.banner img {
+    display: flex;
+    width: 15rem;
+    height: 100%;
+}
+/**/
+.banner h1 {
+    margin-left: 8rem;
+}
+
+.spans {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    border: .8rem outset grey;
+}
+
+.spans nav {
+    display: flex;
+    margin-right: 5rem;
+}
+
+.spans span {
+    padding: 1.5rem;
+    font-size: 1.25rem;
+}
+
+.follow {
+    font-size: 1.25rem;
+    justify-content: flex-end;
+    display: flex;
+    text-align: right;
+}
+
+.spans a {
+    text-decoration: none;
+    color: black;
+}
+
+.follow a {
+    margin: 1.65rem 1rem;
+}
+
+/*Banner 1*/
+#about {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    border: 0.0625rem solid gray;
+    box-shadow: 0.625rem 0.125rem 0.125rem 0.0625rem gray;
+    border-top: none;
+}
+
+.banner-one {
+    background-color: lightgrey;
+    display: flex;
+    position: relative;
+    align-items: center;
+    align-content: center;
+    text-align: left;
+    margin: 3rem 0rem;
+    padding-bottom: 1rem;
+}
+
+.school-picture {
+    margin: 0rem 1rem 0rem 0rem;
+    display: flex;
+    width: 60%;
+    height: 60%;
+}
+
+.school-picture img {
+    width: 100%;
+    height: 100%;
+    align-content: center;
+}
+
+.about {
+    margin: 0rem 2rem;
+    padding: 1rem;
+}
+
+.banner h1 {
+    margin: 0.7rem;
+    font-size: 4rem;
+    padding-left: 8rem;
+}
+
+.about h1 {
+    margin: 0.7rem;
+    font-size: 3rem;
+}
+
+.experience h1 {
+    margin: 0.7rem;
+    font-size: 3rem;
+}
+
+.about p {
+    text-indent: 4rem;
+    font-size: 1.25rem;
+}
+
+.about span {
+    font-size: 1.75rem;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.banner-three {
+    text-align: center;
+}
+
+.skill-icons {
+    display: flex;
+    padding: 2rem 0rem;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 18rem;
+}
+
+#experience {
+    margin: 0;
+    border: 0.0625rem solid steelblue;
+    box-shadow: 0.625rem 0.125rem 0.125rem 0.0625rem steelblue;
+}
+
+.banner-two {
+    background-color: lightsteelblue;
+    margin: 0rem 2rem;
+    padding: 1rem;
+}
+
+.volunteers span {
+    padding: 1rem 0rem;
+    font-weight: 600;
+    font-style: oblique;
+}
+
+.volunteers p {
+    display: flex;
+}
+
+.volunteers {
+    justify-content: space-around;
+}
+
+#contact {
+    padding: 1rem 1rem 0rem 1rem;
+}
+
+.end {
+    padding: 1rem 1rem 0.5rem 1rem;
+}
+
+@font-face {
+    font-family: 'Thasadith';
+    src: url('webfont.eot'); /* IE9 Compat Modes */
+    src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+  }
+
+@media only screen and (min-width: 2560px) {
+    #about {
+        height: 28rem;
+    }
+
+    .school-picture {
+        height: 80%;
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 1405px) {
+    .spans nav {
+        padding: 0rem;
+        margin: 0rem;
+    }
+
+    .spans span {
+        padding-left: .5rem;
+        padding-right: .5rem;
+    }
+
+    .school-picture {
+        display: none;
+    }
+
+    .follow span {
+        display: none;
+    }
+
+    .banner h1 {
+        padding-left: 1rem;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (min-width: 480px) {
+   
+}
+
+@media only screen and (min-width: 320px) and (max-width: 961px) {
+    .drop-button {
+        display: inherit;
+    }
+
+    nav span {
+        display: none;
+    }
+
+    .follow {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 962px) and (max-width: 2560px) {
+    .drop-button {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 3000px) {
+    .drop-button {
+        display: none;
+    }
+}
